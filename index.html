@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raycasting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="keys.css" rel="stylesheet" />
+  <link href="app.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="fab" id="info">
+    <span class="fab-content material-icons">info</span>
+  </div>
+
+  <template id="info-template">
+    <swal-title>Movement</swal-title>
+    <swal-icon type="info"></swal-icon>
+    <swal-button type="confirm">Ok</swal-button>
+    <swal-html>
+      <ul class="info-list">
+        <li>Move forward and backward with <kbd>W</kbd> and <kbd>S</kbd>.</li>
+        <li>Rotate left and right with <kbd>A</kbd> and <kbd>D</kbd>.</li>
+        <li>Adjust field of view with scroll wheel.</li>
+        <li>Click on any grid tile to toggle a wall.</li>
+      </ul>
+    </swal-html>
+  </template>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

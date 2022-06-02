@@ -1,0 +1,36 @@
+* { margin: 0 auto; padding: 0 }
+
+body {
+    font-family: 'Open sans', sans-serif;
+}
+
+.info-list {
+    text-align: left;
+}
+
+.info-list li {
+    line-height: 1.5;
+}
+
+.fab {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+    width: 75px;
+    height: 75px;
+
+    background: #2667FF;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    cursor: pointer;
+}
+
+.fab .fab-content {
+    font-size: 2em;
+}
